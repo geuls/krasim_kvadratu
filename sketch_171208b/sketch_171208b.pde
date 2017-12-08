@@ -7,7 +7,7 @@ class Kvadrat {
     }
 
     void right(float _s) {
-        this.x += _s;
+        this.x -= _s;
     }
 }
 
@@ -38,9 +38,9 @@ void setup()
 
     //Kvadrat[] k_array; 
 
-    k_array = new Nasl[120];
+    k_array = new Nasl[150];
     
-    for (int i = 0; i < 120; i++) {
+    for (int i = 0; i < 150; i++) {
 
         k_array[i] = new Nasl(random(1200), random(height), random(0.0 - 50.0), int(random(#000000, #ff0000)));
 
@@ -54,11 +54,11 @@ void draw()
 
     background(0);
 
-    for (int i = 0; i < 120; i++) {
+    for (int i = 0; i < 150; i++) {
 
         k_array[i].draw();
 
-        k_array[i].right(random(8));
+        k_array[i].right(random(5));
 
     }
 
