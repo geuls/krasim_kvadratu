@@ -1,0 +1,1 @@
+# krasim_kvadratu
