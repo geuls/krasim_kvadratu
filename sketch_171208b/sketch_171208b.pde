@@ -39,10 +39,10 @@ void setup()
     //Kvadrat[] k_array; 
 
     k_array = new Nasl[150];
-    
+
     for (int i = 0; i < 150; i++) {
 
-        k_array[i] = new Nasl(random(1200), random(height), random(0.0 - 50.0), int(random(#000000, #ff0000)));
+        k_array[i] = new Nasl(random(1200), random(height), random(0.0 - 50.0), int(random(#000000, # ff0000)));
 
     }
 
